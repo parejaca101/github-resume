@@ -1,0 +1,86 @@
+body {
+  font-family: 'Georgia', serif;
+  background: #fff0f5;
+  color: #4b2e2e;
+  line-height: 1.6;
+}
+
+/* --- header --- */
+header {
+  background: linear-gradient(to right, #ffe4e1, #f8c8dc);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  color: #c21807;
+  text-shadow: 1px 1px #fce4ec;
+}
+
+header p.lead,
+#contact a {
+  color: #7b3f00;
+}
+
+#contact a:hover {
+  color: #e53935;
+}
+
+/* ---title--- */
+section h2 {
+  font-family: 'Playfair Display', serif;
+  color: #b22222;
+  border-bottom: 2px solid #ffc0cb;
+}
+
+/* ---- objective */
+#objective p {
+  background: #fffaf0;
+  border-left: 5px solid #ff6f61;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+/* ----left column ed and skills-- */
+#education a,
+.card-title a {
+  color: #d6336c;
+  text-decoration: none;
+}
+
+#education a:hover,
+.card-title a:hover {
+  text-decoration: underline;
+}
+
+#skills .list-group-item {
+  background: #ffeef0;
+  border-left: 5px solid #ff6f61;
+  font-weight: bold;
+  color: #6b1e1e;
+}
+
+/* --- experience section---- */
+.card {
+  background: #fff5f8;
+  border: 2px solid #ffcdd2;
+  border-left: 6px solid #c21807;
+  border-radius: 12px;
+  box-shadow: 2px 2px 8px rgba(255, 182, 193, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+/* --- footer--  */
+footer {
+  border-top: 1px dashed #ff6f61;
+  color: #a0522d;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
+}
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
